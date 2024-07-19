@@ -1,9 +1,9 @@
-export interface ProdutoRepository {
+import { Produto } from "../model/Produto";
 
-    listarProdutos(): void;
-    listarProdutoPeloId(numero: number): void;
-    cadastrarProduto(): void;
-    atualizarProduto(): void;
-    deletarProduto(): void;
-    
-  }
+export interface ProdutoRepository {
+  listarProdutoPeloId(id: number): void;
+  listarProdutos(): void;
+  cadastrarProduto(produto: Produto): void;
+  atualizarProduto(produto: Produto): void;
+  deletarProduto(id: number): void;
+}
