@@ -109,6 +109,7 @@ export function main() {
         console.log("\nOpção Inválida!\n");
         keyPress();
         break;
+        
     }
   }
 }
