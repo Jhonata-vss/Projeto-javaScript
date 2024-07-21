@@ -9,7 +9,7 @@ export function main() {
     while (true) {
     console.log("_____________________________________________________");
     console.log("                                                     ");
-    console.log("                    Coisas de Nerd                   ");
+    console.log("                Pain Gaming - PCs Gamers             ");
     console.log("                                                     ");
     console.log("_____________________________________________________");
     console.log("                                                     ");
@@ -27,7 +27,7 @@ export function main() {
     opcao = readlinesync.questionInt("");
 
     if (opcao == 6) {
-      console.log("\nCoisas de Nerd em Geral");
+      console.log("\nPain Gaming - Seu PC Gamer está aqui!");
       sobre();
       process.exit(0);
     }
